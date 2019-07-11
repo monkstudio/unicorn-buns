@@ -1,14 +1,46 @@
 //colours
 //common
 $brand-lightgrey: #E0E0E0;
-$brand-darkgrey: #121212; 
+$brand-darkgrey: #121212;
 
 //brand
-$brand-primary: black;  
+$brand-primary: black;
 $brand-secondary: white;
-$brand-placeholder-color:$brand-lightgrey;
+$brand-placeholder-color:black;
 
 //fonts
-$brand-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  
-$brand-heading: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   
+$brand-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$brand-heading: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$brand-code: Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+
+$fluid-base: (
+    min-vw: 490px,
+    max-vw: 3000px,
+    min-fs: 16px,
+    max-fs: 20px,
+    line-height: 1.8
+);
+
+$code: (
+    min-vw: 490px,
+    max-vw: 3000px,
+    min-fs: 14px,
+    max-fs: 18px,
+    line-height: 1.4
+);
+
+$h1: (
+    min-vw: 490px,
+    max-vw: 3000px,
+    min-fs:22px,
+    max-fs: 36px,
+    line-height: 1.2
+);
+
+$small: (
+    min-vw: 490px,
+    max-vw: 3000px,
+    min-fs:14px,
+    max-fs: 18px,
+    line-height: 1.2
+);

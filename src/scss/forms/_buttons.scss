@@ -1,0 +1,53 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    appearance: none;
+	border:none;
+	padding: .8em 3em;
+	transition:.3s ease all;
+	background-color:$brand-secondary;
+	color:#FFF;
+	border-radius: 10px;
+	display: inline-block;
+	line-height: 1.3;
+	&:visited {
+		color: #FFF;
+	}
+
+	&:hover {
+		background-color:$brand-primary;
+		color:#FFF;
+		transition:.3s ease all;
+		cursor:pointer;
+	}
+
+}
+
+//for links
+.btn,
+.button {
+    @extend button;
+
+	&-clear {
+        text-decoration: underline;
+		padding:.8em 3em;
+		transition:.3s ease all;
+		display: block;
+		line-height: 1.3;
+		&:hover {
+			color: $brand-primary;
+		}
+    }
+// 	&:hover {
+// //		background-color:$brand-secondary;
+
+// 	}
+
+// 	&:active,
+// 	&:focus {
+// 	}
+
+//     &:visited {
+//     }
+}

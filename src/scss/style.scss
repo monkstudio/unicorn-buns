@@ -1,32 +1,54 @@
-/*!
-Theme Name: Monk Holding
-Theme URI: https://github.com/monkstudio/unicorn-buns
-Author: Jaclyn Tan
-Author Email: jaclyn@monk.com.au
-Author URI: http://monk.com.au
-Description: Static HTML template
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: http://www.monk.com.au
 
-  .^====^.
- =( ^--^ )=
-  /      \   /~
-+( |    | )//
-
-
-*/
-
+//--------------------------------------------------------------*/
 @import "variables";
-@import "includemedia";
-@import "mixins";
+@import "mixins/mixins-master";
+//
+///*--------------------------------------------------------------
+//# Normalize
+//--------------------------------------------------------------*/
 @import "normalize";
-
-@import "elements";
-@import "table-grid/table-grid";
-@import "fontello/fontello";
-@import "typography";
-@import "navigation";
+//
+///*--------------------------------------------------------------
+//# Typography
+//--------------------------------------------------------------*/
+@import "typography/typography";
+//
+///*--------------------------------------------------------------
+//# Elements
+//--------------------------------------------------------------*/
+@import "elements/elements";
+//
+///*--------------------------------------------------------------
+//# Forms
+//--------------------------------------------------------------*/
+@import "forms/forms";
+//
+///*--------------------------------------------------------------
+//# Navigation
+//--------------------------------------------------------------*/
+@import "navigation/navigation";
+// @import "navigation/mobile/hamburgers";
+//
+///*--------------------------------------------------------------
+//# Layout
+//--------------------------------------------------------------*/
 @import "layout";
-@import "media";
+//
+///*--------------------------------------------------------------
+//# Accessibility
+//--------------------------------------------------------------*/
+@import "accessibility";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+// @import "media/media";
+
+/*--------------------------------------------------------------
+# Browser Hacks
+--------------------------------------------------------------*/
+//
+//@import "browsers/firefox";
+//@import "browsers/safari";
+//@import "browsers/ie";
+//@import "browsers/other";

@@ -24,9 +24,7 @@ module.exports = {
 	woffDST:'/dist/fonts',
 
 	// Asset Manifest
-	manifestName:'./resources/dist/manifest.json',
-	manifestPath:'./resources/dist',
-	manifestBase:'./resources/src',
+	manifestPath:'/dist/manifest.json',
 
 	// Watch
 	watchJS:'/src/js/!(imports)**',
