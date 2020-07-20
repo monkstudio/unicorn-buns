@@ -5,11 +5,7 @@ select,
 textarea {
 	color: $brand-primary;
 	font-family: $brand-font;
-	@include fluid();
-	// line-height: $font-line-height-body;
-}
-%vr {
-	@include fluid-baseline(30px, .7, .7);
+	@include font-size(1.6);
 }
 
 @import "headings";
