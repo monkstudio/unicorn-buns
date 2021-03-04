@@ -1,24 +1,10 @@
 a {
-	color: $brand-primary;
+	color: currentColor;
 	text-decoration: none;
-
-	&:visited {
-		color: $brand-primary;
-	}
-
+	transition: .3s ease all;
 	&:hover,
 	&:active {
 		color: $brand-secondary;
-		text-decoration: none;
-	}
-
-	&:focus {
-		outline: 2px dotted $brand-primary;
-		text-decoration: none;
-	}
-
-	&:hover,
-	&:active {
-		outline: 0;
+		text-decoration: underline
 	}
 }

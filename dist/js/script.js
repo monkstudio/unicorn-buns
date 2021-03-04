@@ -77,3 +77,26 @@ document.onkeydown = function (evt) {
   }
 };
 "use strict";
+
+jQuery(document).ready(function ($) {
+  /*
+  -ˋˏ *.·:·.⟐.·:·.* ˎˊ-
+  ━━━ ⋅𖥔⋅ ━━✶━━ ⋅𖥔⋅ ━━━
+  Store VH
+  ━━━ ⋅𖥔⋅ ━━✶━━ ⋅𖥔⋅ ━━━
+  -ˋˏ *.·:·.⟐.·:·.* ˎˊ-
+  */
+  function viewportHeight() {
+    if (window.innerWidth !== currentWidth) {
+      var _viewportHeight = window.innerHeight;
+      document.documentElement.style.setProperty('--vh', _viewportHeight + 'px');
+    } else {
+      document.documentElement.style.setProperty('--vh', currentHeight + 'px');
+    }
+  }
+
+  viewportHeight();
+  $(window).on('resize', function () {
+    viewportHeight();
+  });
+});
